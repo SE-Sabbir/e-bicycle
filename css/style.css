@@ -1,0 +1,126 @@
+/* ------------- font link part start -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* ------------- font link part end -------------- */
+/* ------------- common css part start -------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+:root{
+    --Interfont:"Inter", sans-serif;
+    --primarycolor: #00B9D4;
+}
+/* ------------- common css part end -------------- */
+/* ------------- navbar css part start -------------- */
+.navbar{
+    background: #243034;
+}
+.main_menu{
+    padding-top: 35px;
+    padding-bottom: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.main_menu .logo img{
+    width: 130px;
+}
+.main_navbar ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Interfont);
+    color: #FFFFFF !important;
+    padding: 0 !important;
+}
+.main_navbar ul{
+    gap: 80px;
+}
+/* -------- navbar css part end--------*/
+/* -------- banner css part start--------*/
+#banner{
+        width: 100vw;
+    height: 100vh;
+    background: #243034;
+}
+.bottom_text{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.bottom_text h1{
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--Interfont);
+    color: #FFFFFF;
+}
+.bottom_text h2{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--Interfont);
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 33px;
+}
+.banner_text-right h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: var(--Interfont);
+    color: #00B9D4;
+    padding-top: 100px;
+}
+.banner_text-right h2{
+    font-size: 155px;
+    font-weight: 600;
+    font-family: var(--Interfont);
+    color: #FFFFFF;
+}
+.banner_text-right p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    font-family: var(--Interfont);
+    color: #FFFFFF;
+}
+.banner_text-right a{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--Interfont);
+    color: #FFFFFF;
+    width: 455px;
+    height: 85px;
+    border-radius: 28px;
+    background: #00B9D4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 46px;
+}
+.bottom_icon{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    gap: 105px;
+    padding-top: 119px;
+}
+/* -------- banner css part end--------*/
+/* -------- banner css part start--------*/
+/* -------- banner css part end--------*/
